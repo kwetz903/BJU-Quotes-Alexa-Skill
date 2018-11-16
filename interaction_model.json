@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "b. j. u. quotes",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewQuoteIntent",
+                    "slots": [
+                        {
+                            "name": "person",
+                            "type": "AMAZON.US_FIRST_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{person}",
+                        "a b.j.u. quote",
+                        "tell me a b.j.u. quote",
+                        "give me a b.j.u. quote",
+                        "give me a {person} quote",
+                        "give me a quote",
+                        "tell me a {person} quote",
+                        "tell me a quote",
+                        "a {person} quote",
+                        "a quote",
+                        "tell me something",
+                        "give me something"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
